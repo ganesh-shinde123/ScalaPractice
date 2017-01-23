@@ -1,5 +1,7 @@
 package com.scala.practice
 
+import com.scala.practice.ImplicitClassRun._
+
 object HelloWorld {
 	def main(args: Array[String]) {
 	  var i: String = "ASDF"
@@ -10,5 +12,6 @@ object HelloWorld {
 	  
 	  val location = new Location(0, 0, 0)
 	  location.move(1, 1, 1)
+	  4 times println("hello")
 	}
 }
